@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    color: #eee;
+    scroll-behavior: smooth;
+}
+.title h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1rem;
+    color: rgb(247, 250, 247);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-top: 6rem;
+    width: 22rem;
+    height: 25rem;
+    border-radius: 10px;
+    position: relative;
+    top: 0; left: 0;
+    backdrop-filter: blur(15px);
+}
+.login-box h1{
+    margin-top: 1.5rem;
+    color: black;
+    font-weight: 700;
+}
+.login-box input{
+    margin-top: 1.1rem;
+    opacity: .2s;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 20px;
+    border: 2px solid rgb(173, 173, 173);
+    background: none;
+    color: black;
+    font-size: 20px;
+}
+.login-box span{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.login-box span h3{
+    margin-top: 0.7rem;
+}
+.login-box span a{
+    margin-top: 0.8rem;
+}
+.login-box .checkbox{
+    height: 1rem;
+    width: 1rem;
+}
+.login-box a{
+    color: #eee;
+}
+.login-box a:hover{
+    color: black;
+}
+.login-box .btn{
+    font-size: 1.6rem;
+    color: #eee;
+    font-weight: 700;
+}
+.login-box .btn:hover{
+    color:black;
+    border: 2px solid black;
+}
+.login-box h3{
+    margin-top: 2rem;
+}
+.login-box .ri-user-3-fill{
+ position: absolute;
+ top: 6.3rem;
+ right: 2rem;
+ font-size: 1.5rem;
+} 
+.login-box .ri-lock-fill{
+    position: absolute;
+    top: 10.4rem;
+    right: 2rem;
+    font-size: 1.5rem;
+}
